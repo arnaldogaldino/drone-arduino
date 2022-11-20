@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ago.agodrone.MainActivity" >
+
+    <item android:id="@+id/action_novo"
+          android:title="@string/configuracao_novo"
+          android:icon="@android:drawable/ic_menu_add"
+          app:showAsAction="ifRoom" />
+    	
+    <item android:id="@+id/action_editar"
+          android:title="@string/configuracao_editar"
+          android:icon="@android:drawable/ic_menu_edit"
+          app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_excluir"
+          android:title="@string/configuracao_excluir"
+          android:icon="@android:drawable/ic_menu_delete"
+          app:showAsAction="ifRoom" />
+    
+	<item android:id="@+id/action_gravar"
+          android:title="@string/configuracao_gravar"
+          android:icon="@android:drawable/ic_menu_save"
+          app:showAsAction="ifRoom" />
+    
+	<item android:id="@+id/action_reset"
+          android:title="@string/configuracao_reset"
+          android:icon="@android:drawable/ic_menu_revert"
+          app:showAsAction="ifRoom" />
+                
+    <item android:id="@+id/action_voltar"
+          android:title="@string/configuracao_voltar"
+          android:icon="@android:drawable/ic_menu_close_clear_cancel"
+          app:showAsAction="ifRoom" />
+
+</menu>

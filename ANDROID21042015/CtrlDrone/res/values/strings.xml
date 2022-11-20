@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">CtrlDrone</string>
+
+    <string name="title_section1">Controle</string>
+    <string name="title_section2">Conectar</string>
+    <string name="title_section3">Configurações</string>
+	<string name="title_section4">Compass</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    
+    <string name="mnu_settings">Configurações</string>
+    <string name="mnu_gps">GPS</string>
+    <string name="mnu_wifi">Wifi</string>
+    <string name="mnu_comunication">Conexão</string>
+    <string name="mnu_info">Info</string>    
+
+    <string name="configuracao_novo">Novo</string>
+    <string name="configuracao_editar">Editar</string>
+    <string name="configuracao_excluir">Excluir</string>
+    <string name="configuracao_gravar">Gravar</string>
+    <string name="configuracao_reset">Reiniciar Configurações</string>
+    <string name="configuracao_voltar">Voltar</string>
+
+    <string name="configuracao_detail_id">Id:</string>
+    <string name="configuracao_detail_chave">Chave:</string>
+    <string name="configuracao_detail_valor">Valor:</string>
+</resources>

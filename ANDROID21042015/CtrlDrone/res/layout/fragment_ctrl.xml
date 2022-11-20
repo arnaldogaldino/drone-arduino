@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".CtrlActivity$PlaceholderFragment"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:id="@+id/pnlInfo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:visibility="invisible">
+        
+        <TextView
+            android:id="@+id/lblAcelleromiter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:textSize="10dp"
+            android:textColor="@android:color/white" 
+            android:text="Acelerometro:" />
+
+		<TextView
+		    android:id="@+id/lblGyroscope"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@+id/lblAcelleromiter"
+		    android:text="Giroscopio:"
+		    android:textColor="@android:color/white"
+		    android:textSize="10dp" />
+
+		<TextView
+		    android:id="@+id/lblBarometer"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@+id/lblGyroscope"
+		    android:text="Barometro:"
+		    android:textColor="@android:color/white"
+		    android:textSize="10dp" />
+	
+		<TextView
+		    android:id="@+id/lblGPS"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@+id/lblBarometer"
+		    android:text="GPS:"
+		    android:textColor="@android:color/white"
+		    android:textSize="10dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pnlMaps"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/pnlInfo"
+        android:layout_marginRight="19dp"
+        android:visibility="invisible"
+        android:background="@android:color/holo_blue_light" >
+
+<!-- 	<fragment -->
+<!--       android:id="@+id/map" -->
+<!--       android:name="com.google.android.gms.maps.MapFragment" -->
+<!--       android:layout_width="match_parent" -->
+<!--       android:layout_height="match_parent"/> -->
+   	
+    </RelativeLayout>
+            
+    <RelativeLayout
+        android:id="@+id/ctrl_hud"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+    </RelativeLayout>
+        
+    <RelativeLayout
+        android:id="@+id/ctrl_joystick_esquerdo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/joystick"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ctrl_joystick_direito"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/joystick"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
+    </RelativeLayout>
+
+
+</RelativeLayout>

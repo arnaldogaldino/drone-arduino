@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".CtrlActivity">
+
+	<item android:id="@+id/action_info" android:title="@string/mnu_info"  
+	     app:showAsAction="ifRoom" android:icon="@drawable/ic_info" />  
+	     
+    <item android:id="@+id/action_gps" android:title="@string/mnu_gps" 
+          app:showAsAction="ifRoom" android:icon="@drawable/ic_gps_offline" />
+
+    <item android:id="@+id/action_wifi" android:title="@string/mnu_wifi" 
+          app:showAsAction="ifRoom" android:icon="@drawable/ic_ant_offline" /> 
+
+    <item android:id="@+id/action_connection" android:title="@string/mnu_comunication" 
+          app:showAsAction="ifRoom" android:icon="@drawable/ic_connection_offline" />    
+    
+</menu>
